@@ -27,5 +27,5 @@ PageRank <- function(file, ...){
      pr <- as.data.frame(pr)
      pr$Package <- rownames(pr)
 
-  return(toJSON(pr[1:10,]))          
+  return(toJSON(pr[1:8,]))          
 }
